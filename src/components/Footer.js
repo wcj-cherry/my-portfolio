@@ -9,7 +9,7 @@ export default function Footer() {
         </p>
         <div className="mt-4 flex justify-center space-x-6">
           <a
-            href="https://www.linkedin.com/in/your-profile"
+            href="https://linkedin.com/in/sujit-singh-877b94218/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition-colors"
@@ -17,19 +17,19 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/wcj-cherry"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400 transition-colors"
           >
             GitHub
           </a>
-          <a
+          {/* <a
             href="mailto:youremail@example.com"
             className="hover:text-red-400 transition-colors"
           >
             Email
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>

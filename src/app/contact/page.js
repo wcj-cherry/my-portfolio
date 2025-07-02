@@ -10,7 +10,6 @@ export default function ContactPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log("Form submitted", form.current);
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
