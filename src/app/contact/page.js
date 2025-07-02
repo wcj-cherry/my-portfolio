@@ -28,7 +28,7 @@ export default function ContactPage() {
                 type="text"
                 name="name"
                 required
-                className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                className="w-full mt-1 px-4 py-2 text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
               />
             </div>
 
@@ -38,7 +38,7 @@ export default function ContactPage() {
                 type="email"
                 name="email"
                 required
-                className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                className="w-full mt-1 px-4 py-2 text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
               />
             </div>
 
@@ -48,7 +48,7 @@ export default function ContactPage() {
                 name="message"
                 rows="4"
                 required
-                className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                className="w-full mt-1 px-4 py-2 text-black border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
               ></textarea>
             </div>
 
